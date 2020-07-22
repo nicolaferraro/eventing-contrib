@@ -23,7 +23,7 @@ import (
 	"time"
 
 	camelv1 "github.com/apache/camel-k/pkg/apis/camel/v1"
-	camelclientset "github.com/apache/camel-k/pkg/client/clientset/versioned"
+	camelclientset "github.com/apache/camel-k/pkg/client/camel/clientset/versioned"
 	"github.com/cloudevents/sdk-go/v2/test"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"knative.dev/eventing-contrib/camel/source/pkg/apis/sources/v1alpha1"

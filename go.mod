@@ -4,7 +4,8 @@ go 1.14
 
 require (
 	github.com/Shopify/sarama v1.26.4
-	github.com/apache/camel-k v0.0.0-20200430164844-778ae8a2bd63
+	github.com/apache/camel-k/pkg/apis/camel v1.1.0
+	github.com/apache/camel-k/pkg/client/camel v1.1.0
 	github.com/aws/aws-sdk-go v1.30.16
 	github.com/cloudevents/sdk-go/protocol/kafka_sarama/v2 v2.1.0
 	github.com/cloudevents/sdk-go/protocol/stan/v2 v2.1.0
@@ -35,8 +36,8 @@ require (
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
 	gopkg.in/go-playground/webhooks.v5 v5.13.0
 	gopkg.in/yaml.v2 v2.3.0
-	k8s.io/api v0.18.1
-	k8s.io/apimachinery v0.18.1
+	k8s.io/api v0.18.2
+	k8s.io/apimachinery v0.18.2
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	k8s.io/utils v0.0.0-20200124190032-861946025e34
 	knative.dev/eventing v0.16.1-0.20200712014307-acdd118f5ff0

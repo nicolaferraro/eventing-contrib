@@ -31,20 +31,22 @@ github.com/PuerkitoBio/urlesc
 # github.com/Shopify/sarama v1.26.4
 ## explicit
 github.com/Shopify/sarama
-# github.com/apache/camel-k v0.0.0-20200430164844-778ae8a2bd63
+# github.com/apache/camel-k/pkg/apis/camel v1.1.0
 ## explicit
 github.com/apache/camel-k/pkg/apis/camel/v1
 github.com/apache/camel-k/pkg/apis/camel/v1/knative
-github.com/apache/camel-k/pkg/client/clientset/versioned
-github.com/apache/camel-k/pkg/client/clientset/versioned/fake
-github.com/apache/camel-k/pkg/client/clientset/versioned/scheme
-github.com/apache/camel-k/pkg/client/clientset/versioned/typed/camel/v1
-github.com/apache/camel-k/pkg/client/clientset/versioned/typed/camel/v1/fake
-github.com/apache/camel-k/pkg/client/informers/externalversions
-github.com/apache/camel-k/pkg/client/informers/externalversions/camel
-github.com/apache/camel-k/pkg/client/informers/externalversions/camel/v1
-github.com/apache/camel-k/pkg/client/informers/externalversions/internalinterfaces
-github.com/apache/camel-k/pkg/client/listers/camel/v1
+# github.com/apache/camel-k/pkg/client/camel v1.1.0
+## explicit
+github.com/apache/camel-k/pkg/client/camel/clientset/versioned
+github.com/apache/camel-k/pkg/client/camel/clientset/versioned/fake
+github.com/apache/camel-k/pkg/client/camel/clientset/versioned/scheme
+github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1
+github.com/apache/camel-k/pkg/client/camel/clientset/versioned/typed/camel/v1/fake
+github.com/apache/camel-k/pkg/client/camel/informers/externalversions
+github.com/apache/camel-k/pkg/client/camel/informers/externalversions/camel
+github.com/apache/camel-k/pkg/client/camel/informers/externalversions/camel/v1
+github.com/apache/camel-k/pkg/client/camel/informers/externalversions/internalinterfaces
+github.com/apache/camel-k/pkg/client/camel/listers/camel/v1
 # github.com/aws/aws-sdk-go v1.30.16
 ## explicit
 github.com/aws/aws-sdk-go/aws
@@ -716,7 +718,7 @@ honnef.co/go/tools/staticcheck
 honnef.co/go/tools/stylecheck
 honnef.co/go/tools/unused
 honnef.co/go/tools/version
-# k8s.io/api v0.18.1 => k8s.io/api v0.17.6
+# k8s.io/api v0.18.2 => k8s.io/api v0.17.6
 ## explicit
 k8s.io/api/admission/v1
 k8s.io/api/admissionregistration/v1
@@ -759,7 +761,7 @@ k8s.io/api/settings/v1alpha1
 k8s.io/api/storage/v1
 k8s.io/api/storage/v1alpha1
 k8s.io/api/storage/v1beta1
-# k8s.io/apiextensions-apiserver v0.17.6 => k8s.io/apiextensions-apiserver v0.17.6
+# k8s.io/apiextensions-apiserver v0.18.2 => k8s.io/apiextensions-apiserver v0.17.6
 k8s.io/apiextensions-apiserver/pkg/apis/apiextensions
 k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1
 k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1
@@ -777,7 +779,7 @@ k8s.io/apiextensions-apiserver/pkg/client/informers/externalversions/apiextensio
 k8s.io/apiextensions-apiserver/pkg/client/informers/externalversions/internalinterfaces
 k8s.io/apiextensions-apiserver/pkg/client/listers/apiextensions/v1
 k8s.io/apiextensions-apiserver/pkg/client/listers/apiextensions/v1beta1
-# k8s.io/apimachinery v0.18.1 => k8s.io/apimachinery v0.17.6
+# k8s.io/apimachinery v0.18.2 => k8s.io/apimachinery v0.17.6
 ## explicit
 k8s.io/apimachinery/pkg/api/apitesting/fuzzer
 k8s.io/apimachinery/pkg/api/equality
